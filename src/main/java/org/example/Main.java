@@ -2,7 +2,7 @@ package org.example;
 
 import org.example.model.Book;
 
-import java.util.List;
+import java.time.Year;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,6 +10,7 @@ public class Main {
         lms.viewAvailableBooks();
         try {
             lms.addBook(new Book("Ikigai", "123-123-123-1233", "Japanese Guy", 2000));
+            lms.addBook(new Book(null, "123-123-123-1233", "Japanese Guy", 2000));
             lms.addBook(new Book("Atomic Habits", "234-234-234-2344", "James Clear", 2018));
             lms.addBook(new Book("The Alchemist", "345-345-345-3455", "Paulo Coelho", 1988));
             lms.addBook(new Book("Sapiens: A Brief History of Humankind", "456-456-456-4566", "Yuval Noah Harari", 2011));
