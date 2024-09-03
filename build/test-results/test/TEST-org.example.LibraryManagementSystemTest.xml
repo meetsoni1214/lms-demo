@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.LibraryManagementSystemTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2024-08-31T10:13:14" hostname="LAPTOP-RSF4H7GG" time="0.317">
+  <properties/>
+  <testcase name="viewAvailableBooksWhenEmptyLibraryTest()" classname="org.example.LibraryManagementSystemTest" time="0.061"/>
+  <testcase name="addBookWithNullAuthorTest()" classname="org.example.LibraryManagementSystemTest" time="0.016"/>
+  <testcase name="addBookWithVeryOldPublicationYearTest()" classname="org.example.LibraryManagementSystemTest" time="0.021"/>
+  <testcase name="borrowAvailableBookTest()" classname="org.example.LibraryManagementSystemTest" time="0.023"/>
+  <testcase name="addBookWithEmptyAuthorTest()" classname="org.example.LibraryManagementSystemTest" time="0.006"/>
+  <testcase name="returnWrongBookTest()" classname="org.example.LibraryManagementSystemTest" time="0.009"/>
+  <testcase name="addBookWithDuplicateISBNTest()" classname="org.example.LibraryManagementSystemTest" time="0.006"/>
+  <testcase name="addBookTest()" classname="org.example.LibraryManagementSystemTest" time="0.001"/>
+  <testcase name="returnBorrowedBookTest()" classname="org.example.LibraryManagementSystemTest" time="0.014"/>
+  <testcase name="viewAvailableBooksTest()" classname="org.example.LibraryManagementSystemTest" time="0.062"/>
+  <testcase name="addBookWithEmptyTitleTest()" classname="org.example.LibraryManagementSystemTest" time="0.008"/>
+  <testcase name="addBookWithImproperLengthISBNTest()" classname="org.example.LibraryManagementSystemTest" time="0.008"/>
+  <testcase name="addBookWithNullISBNTest()" classname="org.example.LibraryManagementSystemTest" time="0.005"/>
+  <testcase name="addBookWithFuturePublicationYearTest()" classname="org.example.LibraryManagementSystemTest" time="0.008"/>
+  <testcase name="addBookWithNullTitleTest()" classname="org.example.LibraryManagementSystemTest" time="0.006"/>
+  <testcase name="borrowUnavailableBookTest()" classname="org.example.LibraryManagementSystemTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
