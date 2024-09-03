@@ -48,7 +48,7 @@ public class LibraryManagementSystem {
 //            if (validateTitle(book.getTitle()) && validateAuthor(book.getAuthor()) && validatePublicationYear(book.getPublicationYear())) {
 //                // validating ISBN
 //                String ISBN = book.getISBN();
-//                if (ISBN == null || ISBN.length() != 16) throw new IllegalArgumentException("ISBN cannot be null or it must have length >= 13!");
+//                if (ISBN == null || ISBN.length() != 16) throw new IllegalArgumentException("ISBN cannot be null, or it must have length >= 13!");
 //                if (existingISBNs.contains(book.getISBN())) {
 //                    throw new IllegalArgumentException("Book cannot be added as there is already a book added with ISBN: " + book.getISBN());
 //                }
